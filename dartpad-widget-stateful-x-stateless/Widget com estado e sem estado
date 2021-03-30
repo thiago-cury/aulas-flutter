@@ -1,0 +1,54 @@
+
+//Material design para Android
+import 'package:flutter/material.dart';
+
+//Cupertino design para iOS
+// import 'package:flutter/cupertino.dart'
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: WidgetSemEstado()
+    ),
+  );
+}
+
+
+class WidgetSemEstado extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return FlutterLogo();
+  }
+}
+
+class WidgetComEstado extends StatefulWidget {
+
+  @override
+  _WidgetComEstadoState createState() {
+    return _WidgetComEstadoState();
+  }
+
+}
+
+class _WidgetComEstadoState extends State<WidgetComEstado> {
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Column(
+       children: [
+          FlutterLogo(),
+          Text($value)
+        ],
+      ),
+    );
+  }
+}
+
+//Widgets.... componentes visuais..
+//Flutter - SDK - Dart...
+//orientação a objetos...
+//orientação a design....
+
+//stateless - sem estado
+//stateful - com estado cheio... -> fazer uma nova renderização... state...  -> react / react native.... state
