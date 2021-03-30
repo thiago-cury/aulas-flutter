@@ -1,24 +1,19 @@
-# aulas-flutter
-Aulas Flutter
+# Aulas Flutter
 
 Ordem de aprendizagem
 
 #Dart - dartpad
-2 - Classes (Dartpad)
+1 - Classes (Dartpad)
 
-parte 1
-parte 2
-parte 3
+2 - Heranças e métodos
 
-3 - Heranças e métodos
+3 - Abstract e Extension
 
-4 - Abstract e Extension
+4 - Método toString
 
-5 - Método toString
+5 - Statefull x Stateless
 
-6 - Statefull x Stateless
-
-7 - Logo increase e decrease
+6 - Logo increase e decrease
 
 #Flutter - apenas mostrar projeto e entender estrutura
 
