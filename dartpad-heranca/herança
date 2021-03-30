@@ -1,0 +1,70 @@
+class Animal {
+
+  String name;
+
+  Animal(this.name);
+
+  void eat() {
+    print('$name comeu!');
+  }
+
+  void speak() {
+    print('');
+  }
+}
+
+class Cat extends Animal { //herança
+
+  String y;
+                             //super é o construtor de animal
+  Cat(String name, this.y): super(name);
+
+  void catKL() {
+    print('kl kl kl');
+  }
+
+  @override //sobrescrita de algo.... método...
+  void speak() {
+    print('miauuuu miauuu');
+  }
+}
+
+class Dog extends Animal{
+  String x;
+
+  Dog(String name, this.x): super(name);
+
+  void dogXY() {
+    print('xy xy xy');
+  }
+
+  @override //sobrescrita de algo.... método...
+  void speak() {
+    print('au auuuu au auuuu');
+  }
+
+}
+
+void main() {
+  print('Oi');
+
+  var animal = Animal('Rex');
+  print('${animal.name}');
+
+  var cat = Cat('Fred', 'asdf');
+//   cat.name = 'Fred';
+//   cat.y = 'asdf';
+  print('Nome do gato: ${cat.name} y: ${cat.y}');
+  cat.eat();
+  cat.catKL();
+  cat.speak();
+
+  var dog = Dog('Dooley', 'uiop');
+//   dog.name = 'Dooley';
+//   dog.x = 'uiop';
+  print('Nome do cachorro: ${dog.name} x: ${dog.x}');
+  dog.eat();
+  dog.dogXY();
+  dog.speak();
+
+}

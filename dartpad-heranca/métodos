@@ -1,0 +1,91 @@
+
+//sintaxe - assinatura de um método...
+// tipo de retorno nome do método (lista de parametros);
+
+//métodos.... ação / retorno....
+//ação
+void showMessage() {
+  print('Oi tudo bom?');
+}
+
+//retorno
+String showMessage1() {
+  return 'Oi...';
+}
+
+//entrada de parâmetros...
+//retorno com parâmetro
+String showMessage2(String name) {
+  return 'Oi $name';
+}
+
+//ação com parâmetro
+void showMessage3(String name) {
+  print('Oi $name');
+}
+
+//métodos de cálculos.....
+double sum(double number1, double number2) {
+  return number1 + number2;
+}
+
+double subtract(double number1, double number2) {
+  return number1 - number2;
+}
+
+bool check(double number1, double number2) {
+  //operadores relacionais.... > < == != >= <=
+  return number1 == number2;
+}
+
+bool checkAge(int age) {
+  return age >= 18;
+}
+
+// {} - parametros opcionais nomeados......
+
+void showValue(String name, {String lastname, String email}) {
+  print('nome: $name ${lastname ?? ""} ${email ?? ""}');
+}
+
+// [] - parametros opcionais NÃO nomeados......
+
+void showValue1(String name, [String lastname]) {
+  print('nome: $name ${lastname ?? ""}');
+}
+
+dynamic showValue2(String name, [String lastname]) {
+  return 'nome: $name ${lastname ?? ""}';
+}
+
+void main() {
+
+  print(showValue2('Euricleia', 'Mendes'));
+
+  showValue1('Joao');
+  showValue1('Joao', 'Silva');
+
+  showValue('Thiago');
+  showValue('Thiago',
+            email: 'thiagocuyr@gmail.com',
+            lastname: 'Cury');
+
+//   double number1 = 10;
+//   double number2 = 5;
+//   print(sum(number1, number2));
+//   print(sum(6.5, 9.3));
+//   print('a subtração é: ${subtract(10, 4)}');
+
+//   print('é maior: ${checkAge(13)}');
+//   print(check(50, 50));
+
+  //ação sem parâmetro
+//   showMessage();
+//   showMessage();
+  //retorno sem parâmetro
+//   print(showMessage1());
+  //retorno com parâmetro
+//   print(showMessage2('Edd'));
+  //ação com parâmetro
+//   showMessage3('Jhon');
+}
