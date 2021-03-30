@@ -1,0 +1,79 @@
+//Android  material design
+import 'package:flutter/material.dart';
+
+//iOS
+// import 'package:flutter/cupertino.dart';
+//React - web / native -> state
+
+class WidgetSemEstado extends StatelessWidget {
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: FlutterLogo(size: 50.0),
+    );
+  }
+
+}
+
+class WidgetComEstado extends StatefulWidget {
+
+    @override
+    _WidgetComEstadoState createState() {
+      return _WidgetComEstadoState();
+    }
+}
+
+class _WidgetComEstadoState extends State<WidgetComEstado> {
+  double _size = 30.0; //atributos
+
+  void _increaseSize() {
+    setState(() {
+      _size = _size + 15.0;
+    });
+  }
+  void _decreaseSize() {
+    setState(() { _size = _size - 15.0; });
+  }
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Column(
+        children: [
+          FlutterLogo(size: _size),
+          Text('Tamanho atual: $_size'),
+          TextButton(
+            child: Text('Aumentar tamanho'),
+            onPressed: () {
+              _increaseSize();
+            },
+          ),
+          TextButton(
+            child: Text('Diminuir tamanho'),
+            onPressed: () {
+              _decreaseSize();
+            },
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+void main() {
+  runApp(
+    MaterialApp(
+      title: 'Exemplo',
+      home: WidgetComEstado(),
+    ),
+  );
+}
+
+
+
+//Widgets.... -> componentes visuais do Flutter...
+//button, list, dropdown... text... SizedBox, padding, column, row
+
+//Flutter
+//Stateless -> sem estado -> a tela é estática...
+//Stateful -> com estado -> a tela é dinâmica... banco de dados, api nuvem...
