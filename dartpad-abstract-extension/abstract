@@ -1,0 +1,87 @@
+//abstract/interface - Dart...
+//herança.... métodos, caracteristicas(atributos).... extends..
+//implementar uma classe abstrata como contrato(funcionalidades).. - implements....
+
+//modelo....
+abstract class Animal {
+
+  String speak();
+  String showName(String name);
+
+}
+
+class Cat implements Animal { //contrato...
+
+  @override
+  String speak() {
+    return 'miauuu miauuu';
+  }
+
+  @override
+  String showName(String name) {
+    return 'Oi $name';
+  }
+}
+
+// class Dog extends Animal { //implements - contrato...
+//   Dog(String name): super(name);
+
+//   @override
+//   String speak() {
+//     return 'au auuu';
+//   }
+// }
+
+//interface...
+abstract class GeometricalFigure {
+  String getFigureName();
+  double getArea();
+  double getPerimeter();
+}
+
+class Square implements GeometricalFigure { //contrato...
+
+  double side;
+
+  Square(this.side);
+
+  @override
+  String getFigureName() {
+    return "Quadrado";
+  }
+
+  @override
+  double getArea() {
+    return this.side * this.side;
+  }
+
+  String xy() {
+    return 'bla';
+  }
+
+  @override
+  double getPerimeter() {
+    return this.side * 4;
+  }
+}
+
+void main() {
+  print('Oi');
+
+  var square = Square(10.5);
+  print('Nome da figura geométrica: ${square.getFigureName()}');
+  print('Área: ${square.getArea()}');
+  print('Perímetro: ${square.getPerimeter()}');
+  print('xy: ${square.xy()}');
+
+//   var cat = Cat();
+//   print(cat.showName('Fred'));
+//   print(cat.speak());
+
+//   var animal = Animal('Dooley');
+//   print('Nome ${animal.name}');
+
+//   var dog = Dog('Rex');
+//   print('Nome ${dog.name}');
+//   print('${dog.speak()}');
+}

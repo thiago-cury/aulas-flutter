@@ -1,0 +1,36 @@
+abstract class Human {
+
+  String name;
+
+  Human(this.name);
+
+  String showName() {
+    return this.name;
+  }
+
+}
+
+class Person extends Human {
+                      //construtor da classe pai... ou seja de Human
+  Person(String name): super(name); //Human(name);
+
+  String xy() {
+    return 'uolll';
+  }
+}
+
+class EtBilu extends Person {
+  EtBilu(String name): super(name); //Person(name);
+}
+
+void main() {
+  print('Oi');
+
+  var person = Person('Thiago');
+  print('Olá ${person.showName()}');
+
+  var etBilu = EtBilu('Biluzin');
+  print('Olá ${etBilu.showName()}');
+  print('-> ${etBilu.xy()}');
+
+}

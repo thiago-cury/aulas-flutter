@@ -1,0 +1,25 @@
+
+// String hello(String message) {
+//   return 'Olá $message';
+// }
+
+//extension
+extension Hi on String {
+  String hi() {
+    return 'Olá $this';
+  }
+}
+
+void main() {
+
+//   print(hello('Thiago'));
+//   print(hello('Eric'));
+
+//   String x = 'aaBBcc';
+//   print(x);
+//   print(x.toUpperCase());
+//   print(x.toLowerCase());
+
+  String name = 'Dart';
+  print(name.hi());
+}
