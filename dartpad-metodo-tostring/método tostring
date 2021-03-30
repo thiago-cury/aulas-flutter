@@ -1,0 +1,53 @@
+
+class Animal {
+
+  String name;
+  int age;
+
+  Animal(this.name, this.age);
+
+  @override
+  String toString() {
+    return 'Nome do animal: ${this.name}\n Idade: ${this.age}';
+  }
+
+}
+
+class Cat extends Animal {
+
+  Cat(String name, int age): super(name, age);
+
+  int checkAge() {
+    return this.age * 7;
+  }
+
+  //Nao posso chamar no toString
+//   int checkAge1(int value) {
+//     return this.age * value;
+//   }
+
+  @override
+  String toString() {
+    return 'Nome do gato: ${this.name}\n Idade do gato: ${this.checkAge()}';
+  }
+
+}
+
+void main() {
+  print('Oi');
+
+  //toString() -> implementar....
+
+  final cat = Cat('Fred', 2);
+  print('${cat.toString()}'); //chama o toString
+
+  final animal1 = Animal('Dooley', 9);
+  print('${animal1.toString()}'); //chama o toString
+  print('${animal1.name}');
+  print('->> $animal1'); //chama o toString
+  print(animal1); //chama o toString
+
+  final animal2 = Animal('Rex', 3);
+  print('${animal2.toString()}');
+
+}
