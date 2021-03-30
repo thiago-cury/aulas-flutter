@@ -1,0 +1,57 @@
+class Cake {
+  //atributo global
+  String flavor;
+  double weight;
+  //construtor
+}
+
+class Person {
+  //global
+  String name;
+  String email;
+  int age;
+
+  //errado
+//   void showInformation() { //void significa sem retorno...
+//     print('Nome: ${this.name}\nEmail: ${this.email}\nIdade: ${this.age}');
+//   }
+
+  //certo
+  String showInformation() { //void significa sem retorno...
+    return 'Nome: ${this.name}\nEmail: ${this.email}\nIdade: ${this.age}';
+  }
+
+  int calculateAgeInMonths() {
+    return this.age * 12; //+ - * /
+  }
+
+}
+
+void main() {
+
+  var name = 'thiago';
+  print('Oi $name');
+
+  var person = Person();
+  person.name = 'Jac';
+  person.email = 'jac@uol.com'; //old school
+  person.age = 46;
+
+  print('-> retornado o string da classe e impresso no main');
+  print(person.showInformation());
+  print('-> direto no main');
+  print('Nome: ${person.name}\nEmail: ${person.email}\nIdade: ${person.age}');
+
+  print('Idade em meses: ${person.calculateAgeInMonths()}');
+
+  var chocolateCake = Cake();
+  chocolateCake.flavor = 'Chocolate';
+  chocolateCake.weight = 2.78;
+  print('O sabor do bolo é: ${chocolateCake.flavor}\nO peso é: ${chocolateCake.weight} Kg');
+
+  var strawberryCake = new Cake();
+  strawberryCake.flavor = 'Morango';
+  strawberryCake.weight = 1.90;
+  print('O sabor do bolo é: ${strawberryCake.flavor}\nO peso é:  ${strawberryCake.weight} Kg');
+
+}

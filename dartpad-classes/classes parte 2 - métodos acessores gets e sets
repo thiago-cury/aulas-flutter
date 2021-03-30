@@ -1,0 +1,43 @@
+class Person {
+  //atributos globais
+  //visibilidade x encapsulamento
+  String _name;
+  int _age;
+
+  //getter and setter
+  //get -> traz de volta o valor..... retorna das cinzas da memória
+  //set -> envia o valor para a memória...
+  String get name {
+    return _name.toUpperCase();
+  }
+
+  set name(String name) {
+    _name = name;
+  }
+
+  int get age {
+    return _age;
+  }
+
+  set age(int age) {
+    if(age >= 0) {
+      _age = age;
+    } else {
+      _age = 0;
+    }
+  }
+
+  int calculateAgeInMonths() {
+    return this.age * 12;
+  }
+
+}
+
+void main() {
+  print('Oi');
+
+  var person = Person();
+  person.name = 'Jan';
+  person.age = 10;
+  print('Name ${person.name}\nIdade ${person.age}\nIdade em meses: ${person.calculateAgeInMonths()}');
+}

@@ -1,0 +1,41 @@
+class Person {
+
+  String _name; //private
+  int _age; //private
+
+  Person(this._name, this._age);
+
+  String get name {
+    return _name.toUpperCase();
+  }
+
+  set name(String name) {
+    _name = name;
+  }
+
+  int get age {
+    return _age;
+  }
+
+  set age(int age) {
+    _age = age;
+  }
+
+}
+
+void main() {
+  print('Oi');
+
+  var person1 = Person('Thiago', 20); //método construtor....
+  print('Nome: ${person1.name}\nIdade: ${person1.age}');
+  person1.name = 'Thiago Cury';
+  print('Nome: ${person1.name}\nIdade: ${person1.age}');
+
+  final person2 = Person('Jan', 30); //método construtor....
+//   person2 = Person('Mathias', 20); //nao funciona....
+
+  print('Nome: ${person2.name}\nIdade: ${person2.age}');
+  person2.name = 'Jan Silva';
+  print('Nome: ${person2.name}\nIdade: ${person2.age}');
+
+}
