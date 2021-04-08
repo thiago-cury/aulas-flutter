@@ -1,0 +1,111 @@
+void main() {
+
+//   var x = List.generate(3, (i) => List.generate(1, (j) => i+j));
+
+//   print(x);
+
+//   var a = 3;
+//   var dataList = List.generate(a, (i) => [0,0,0], growable: false);
+
+//   print(dataList);
+
+//   var list = new List<int>.generate(10, (i) => 2*i);
+//   print(list);
+
+//   var grid = List<List<int>>.generate(6, (i) => List<int>.generate(2, (j) => 10));
+
+//   print(grid);
+
+//   for(int row = 0 ; row < 6 ; row++) {
+//     for(int column = 0 ; column < 6 ; column++) {
+//       print(grid[row][column]);
+//     }
+//   }
+
+//   List<int> numbers = [10,20,30];
+
+//   for(var number in numbers) {
+//     print(number);
+//   }
+
+  //foreach - iteração para cada elemento.... variáveis unidimensionais.... vetor ou matrizes....
+
+//   var name = 'thiago';
+//   print(name);
+
+            //   0   ,    1   ,    2    ,   3
+//   var list = ['pedro', 'maria', 'brenda', 'joao'];
+//   List<String> list = ['pedro', 'maria', 'brenda', 'joao'];
+
+//   print(list);
+//   print(list[0]);
+//   print(list[1]);
+//   print(list[2]);
+
+//   for(int i = 0 ; i < list.length ; i++) {
+//     print("Nome: ${list[i]}");
+//   }
+
+  //for each.....
+//   for(var name in list) {
+//     print('$name');
+//   }
+
+  //while, for(foreach), do while
+
+  //cond. inicio ; cond. final ; incremento / decremento
+//   for(int i = 0 ; i < 5 ; i++) {
+//     print("e ae");
+//   }
+
+//   for(int j = 5 ; j > 0 ; j--) { //downToFor
+//     print("uolll");
+//   }
+
+  //loop infinito - overflow - estouro de memória....
+
+//   int count = 10;
+//   do {
+//     print("oi");
+//     count++;
+//   } while(count < 5);
+
+//   int count = 0;
+//   while(count < 10) { //enquanto
+//     print("$count - oi");
+//     count = count + 1; //incremento... incrementador....
+//        count++;
+//   }
+
+//   int countt = 10;
+//   while(countt > 0) { //enquanto
+//     print("$countt - oi");
+// //     countt = countt - 1; //decremento... decrementador
+//     countt--;
+//   }
+
+//   int count = 0;
+//   while(count < 100) { //enquanto
+//     print("$count - oi");
+//     count = count + 4; //acumulador.....
+//     count++;
+//   }
+
+
+//   10/2 = 5
+//   10.0/3.0 = 3.33333
+
+//resto do modulo da divisao
+//     10%2 = 0
+//     10%3 = 1
+
+//   int count = 0;
+//   while(count < 100) { //enquanto
+//     if(count % 2 == 0) {
+//       print("$count - oi");
+//     }
+//     count++;
+//   }
+
+  print("tchau");
+}
