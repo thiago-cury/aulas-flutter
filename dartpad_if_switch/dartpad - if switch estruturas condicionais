@@ -1,0 +1,252 @@
+bool checkArithmeticAverage(double average, double frequency) {
+  return average >= 6 && frequency >= 0.75;
+}
+
+String checkArithmeticAverage1(double average, double frequen88cy) {
+  if(checkArithmeticAverage(average, frequency)) {
+    return "aprovado";
+  } else {
+    return "reprovado";
+  }
+}
+
+String checkSituation(double average) {
+  if(average >= 9) {
+    return "A";
+  } else if(average >= 8 ) {
+    return "B";
+  } else if(average >= 6) {
+    return "C";
+  }
+//   return "D";
+}
+
+String checkMonth(int month) {
+  switch(month) {
+    case 1: return "Janeiro";
+    case 2: return "Fevereiro";
+    case 3: return "Março";
+    case 4: return "Abril";
+    default: return "Mês desconhecido";
+  }
+}
+
+void main() {
+  //estruturas condicionais.....
+
+  //switch
+
+  int month = 14;
+  print(checkMonth(month));
+
+//   String letter = "a";
+
+//   switch(letter) {
+//     case "a": print('é A');
+//       break;
+//     case "b": print('é B');
+//       break;
+//     default: print('letra desconhecido...');
+//       break;
+//   }
+
+//   int number = 30;
+
+//   switch(number) {
+//     case 1: print('é um');
+//       break;
+//     case 2: print('é dois');
+//       break;
+//     case 3: print('é três');
+//       break;
+//     default: print('numero desconhecido...');
+//       break;
+//   }
+
+
+  //if else if else if N.... else
+  //if
+  //if else
+
+//   double average = 6.7;
+//   double frequency = 0.80;
+
+//   String response; // null
+
+  //if ternário
+//   response = average >= 6 ? "Aprovado" : "Reprovado";
+//   print('$response');
+
+//   bool _loading = false;
+//   _loading == true ? CircularProgressIndicator() : Text('nao carregado....');
+
+//   if(average >= 6) {
+//     print('Aprovado');
+//   } else {
+//     print('Reprovado');
+//   }
+
+//   if(checkArithmeticAverage(average, frequency)) {
+//     print("aprovado");
+//   } else {
+//     print("reprovado");
+//   }
+
+//   print(checkArithmeticAverage1(average, frequency));
+//   print(checkSituation(average) ?? "inconsistente.");
+
+  //??
+//   String nome;
+//   print(nome ?? "valor nao definido");
+//   nome = "Thiago";
+//   print(nome ?? "valor nao definido");
+
+//   if(average >= 6 &&  frequency >= 0.75) {
+//     print("aprovado");
+//   } else {
+//     print("reprovado");
+//   }
+
+//   if(average < 6) {
+//     print('Reprovado!');
+//   }
+
+  //inversao de lógica
+//   if(!(average >= 6)) {
+//     print('Reprovado!');
+//   }
+
+//   if(average >= 6) {
+//     print('Aprovado!');
+//   } else {
+//     print('Reprovado!');
+//   }
+
+}
+
+bool checkArithmeticAverage(double average, double frequency) {
+  return average >= 6 && frequency >= 0.75;
+}
+
+String checkArithmeticAverage1(double average, double frequency) {
+  if(checkArithmeticAverage(average, frequency)) {
+    return "aprovado";
+  } else {
+    return "reprovado";
+  }
+}
+
+String checkSituation(double average) {
+  if(average >= 9) {
+    return "A";
+  } else if(average >= 8 ) {
+    return "B";
+  } else if(average >= 6) {
+    return "C";
+  }
+//   return "D";
+}
+
+String checkMonth(int month) {
+  switch(month) {
+    case 1: return "Janeiro";
+    case 2: return "Fevereiro";
+    case 3: return "Março";
+    case 4: return "Abril";
+    default: return "Mês desconhecido";
+  }
+}
+
+void main() {
+  //estruturas condicionais.....
+
+
+  //switch
+
+  int month = 14;
+  print(checkMonth(month));
+
+//   String letter = "a";
+
+//   switch(letter) {
+//     case "a": print('é A');
+//       break;
+//     case "b": print('é B');
+//       break;
+//     default: print('letra desconhecido...');
+//       break;
+//   }
+
+//   int number = 30;
+
+//   switch(number) {
+//     case 1: print('é um');
+//       break;
+//     case 2: print('é dois');
+//       break;
+//     case 3: print('é três');
+//       break;
+//     default: print('numero desconhecido...');
+//       break;
+//   }
+
+
+  //if else if else if N.... else
+  //if
+  //if else
+
+//   double average = 6.7;
+//   double frequency = 0.80;
+
+//   String response; // null
+
+  //if ternário
+//   response = average >= 6 ? "Aprovado" : "Reprovado";
+//   print('$response');
+
+//   bool _loading = false;
+//   _loading == true ? CircularProgressIndicator() : Text('nao carregado....');
+
+//   if(average >= 6) {
+//     print('Aprovado');
+//   } else {
+//     print('Reprovado');
+//   }
+
+//   if(checkArithmeticAverage(average, frequency)) {
+//     print("aprovado");
+//   } else {
+//     print("reprovado");
+//   }
+
+//   print(checkArithmeticAverage1(average, frequency));
+//   print(checkSituation(average) ?? "inconsistente.");
+
+  //??
+//   String nome;
+//   print(nome ?? "valor nao definido");
+//   nome = "Thiago";
+//   print(nome ?? "valor nao definido");
+
+//   if(average >= 6 &&  frequency >= 0.75) {
+//     print("aprovado");
+//   } else {
+//     print("reprovado");
+//   }
+
+//   if(average < 6) {
+//     print('Reprovado!');
+//   }
+
+  //inversao de lógica
+//   if(!(average >= 6)) {
+//     print('Reprovado!');
+//   }
+
+//   if(average >= 6) {
+//     print('Aprovado!');
+//   } else {
+//     print('Reprovado!');
+//   }
+
+}
