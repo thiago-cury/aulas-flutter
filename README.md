@@ -16,6 +16,10 @@ Ordem de aprendizagem
 
 6 - Logo increase e decrease
 
+7 - If e Switch
+
+8 - While do while for e foreach
+
 #Flutter - apenas mostrar projeto e entender estrutura
 
 1 - Projeto Teste - projeto_teste
@@ -43,3 +47,9 @@ Ordem de aprendizagem
 12 - Exemplo navegação com rotas
 
 13 - Exemplo menu drawer
+
+14 - Exemplo - willpopscope
+
+15 - Exemplo - xilofone e audio
+
+16 - Exemplo future async await then async x async* e yield
