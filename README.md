@@ -53,3 +53,9 @@ Ordem de aprendizagem
 15 - Exemplo - xilofone e audio
 
 16 - Exemplo future async await then async x async* e yield
+
+17 - Exemplo backdrop
+
+18 - Exemplo consumo API Postmon CEP
+
+19 - Exemplo consumo API Pokemon
