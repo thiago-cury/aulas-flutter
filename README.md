@@ -40,6 +40,8 @@ Ordem de aprendizagem
 
 9 - Exemplo Formulário
 
+9.1 - Exemplo switch - trocando inputType automaticamente
+
 10 - Exemplo Flipcard
 
 11 - Exemplo navegação
