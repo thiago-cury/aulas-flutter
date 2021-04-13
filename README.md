@@ -63,3 +63,7 @@ Ordem de aprendizagem
 19 - Exemplo consumo API Pokemon
 
 20 - Exemplo consumo API Giphy
+
+- Exemplo TTS
+
+- Exemplo IMC BloC - conceitual
