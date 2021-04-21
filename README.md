@@ -67,3 +67,9 @@ Ordem de aprendizagem
 - Exemplo TTS
 
 - Exemplo IMC BloC - conceitual
+
+- Exemplo consumo API Postmon CEP com BloC
+
+- Exemplo internacionalização
+
+- Exemplo SQFLite 
