@@ -72,4 +72,6 @@ Ordem de aprendizagem
 
 - Exemplo internacionalização
 
-- Exemplo SQFLite 
+- Exemplo SQFLite
+
+- Exemplo icone
