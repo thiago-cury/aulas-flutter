@@ -1,0 +1,78 @@
+//métodos de ação
+// showName() {
+//   print('Oi thiago');
+// }
+
+void showName() {
+  print('Oi thiago');
+}
+
+//métodos de retorno
+String showName1() {
+  return 'Thiago...';
+}
+
+int getNumber() {
+  return 10;
+}
+
+int calculateNumber(int number) {
+  return getNumber() * number;
+}
+
+double calculateArithmeticAverage() {
+  return (10+9)/2;
+}
+
+double sumValues(double number1, double number2) {
+  return number1 + number2;
+}
+
+double divideValues(double number1, double number2) {
+  return number1 / number2;
+}
+
+double calculateArithmeticAveragee(double number1, double number2) {
+  return divideValues(sumValues(number1, number2),2);
+}
+
+String calculateArithmeticAverageee(double number1, double number2) {
+  double average = divideValues(sumValues(number1, number2),2);
+  return 'A sua média aritmética é $average';
+}
+
+String showUpperName(String name) {
+  return name.toUpperCase();
+}
+
+void showUpperNamee(String name) {
+  print(name.toUpperCase());
+}
+
+String showPerson(String name, int age, double weight) {
+  return 'Nome $name\nIdade $age\nPeso $weight';
+}
+
+void main() {
+  print('Thiago');
+
+  print(showPerson('Thiago', 37, 83.876));
+
+  showUpperNamee('Thiago');
+  print(showUpperName('Thiago'));
+
+  showName();
+  var response = showName1();
+  print(response);
+
+  print(calculateNumber(5));
+
+  print(calculateArithmeticAverage());
+  print(calculateArithmeticAveragee(9.5, 8.75));
+  print(calculateArithmeticAveragee(9, 5));
+  print(calculateArithmeticAveragee(8, 6));
+  print(calculateArithmeticAveragee(8, 8));
+  print(calculateArithmeticAveragee(4, 5));
+
+  print(calculateArithmeticAverageee(9, 8));
+}

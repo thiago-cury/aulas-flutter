@@ -1,0 +1,54 @@
+//code.combat
+class Hero {
+
+  //atributos/variável global
+  String name = "";
+
+  //métodos
+  String showName() {
+    return this.name;
+  }
+
+  String moveToLeft() {
+    return '<';
+  }
+
+  String moveToRight() {
+    return '>';
+  }
+
+  String moveToDown() {
+    return '_';
+  }
+
+  String moveToUp() {
+    return '^';
+  }
+
+}
+
+void main() {
+  print('Oi');
+
+  //instanciação.... instancia de objeto
+
+  //versao<2
+//   final hero = new Hero();
+
+  //versao>=2
+  final hero = Hero(); //hero é um objeto
+
+  hero.name = "Alex";
+
+  print(hero.name);
+  print(hero.showName());
+
+  print(hero.moveToRight());
+  print(hero.moveToRight());
+  print(hero.moveToLeft());
+  print(hero.moveToDown());
+  print(hero.moveToDown());
+  print(hero.moveToUp());
+  print(hero.moveToUp());
+
+}

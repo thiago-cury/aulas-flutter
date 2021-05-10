@@ -4,9 +4,15 @@ Ordem de aprendizagem
 
 #Dart - dartpad
 
+0 - Intro
+
 1 - Classes (Dartpad)
 
+1.1 - Class Hero
+
 2 - Heranças e métodos
+
+2.0 - Métodos
 
 3 - Abstract e Extension
 
