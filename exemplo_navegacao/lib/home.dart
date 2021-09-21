@@ -1,7 +1,5 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
-
 import 'screen_1.dart';
 import 'screen_2.dart';
 

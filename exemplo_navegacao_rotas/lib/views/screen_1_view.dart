@@ -27,7 +27,7 @@ class _Screen1ViewState extends State<Screen1View> {
             icon: Icon(Icons.arrow_back),
             label: Text('Voltar para home'),
             onPressed: () {
-              Navigator.pushReplacementNamed(context, AppRoutes.APP_ROUTE_HOME);
+              Navigator.pushReplacementNamed(context, AppRoutes.appRouteHome);
             },
           ),
         ],

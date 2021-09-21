@@ -2,7 +2,6 @@ import 'dart:io';
 import 'package:exemplo_drawer/views/views.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-
 import '../constant.dart';
 
 class MenuDrawer extends StatelessWidget {
@@ -39,7 +38,7 @@ class MenuDrawer extends StatelessWidget {
     );
   }
 
-  Widget _createDrawerItem({IconData icon, String text, GestureTapCallback onTap}) {
+  Widget _createDrawerItem({required IconData icon, required String text, required GestureTapCallback onTap}) {
     return ListTile(
       title: Row(
         children: <Widget>[
@@ -65,7 +64,7 @@ class MenuDrawer extends StatelessWidget {
           SizedBox(height: 10.0,),
           _createDrawerItem(
               icon: Icons.home,
-              text: Constant.MENU_HOME,
+              text: Constant.menuHome,
               onTap: () {
                 Navigator.of(context).pop();
               }
@@ -74,7 +73,7 @@ class MenuDrawer extends StatelessWidget {
           Divider(),
           _createDrawerItem(
               icon: Icons.list,
-              text: Constant.MENU_SCREEN_1,
+              text: Constant.menuScreen1,
               onTap: () {
                 Navigator.of(context).pop();
                 Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Screen1()));
@@ -82,7 +81,7 @@ class MenuDrawer extends StatelessWidget {
           ),
           _createDrawerItem(
               icon: Icons.list,
-              text: Constant.MENU_SCREEN_2,
+              text: Constant.menuScreen2,
               onTap: () {
                 Navigator.of(context).pop();
                 Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => Screen2()));
@@ -91,7 +90,7 @@ class MenuDrawer extends StatelessWidget {
           Divider(),
           _createDrawerItem(
               icon: Icons.info,
-              text: Constant.MENU_ABOUT,
+              text: Constant.menuAbout,
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (BuildContext context) => About()));
               }
@@ -99,7 +98,7 @@ class MenuDrawer extends StatelessWidget {
           Divider(),
           _createDrawerItem(
               icon: Icons.directions_run_outlined,
-              text: Constant.MENU_EXIT,
+              text: Constant.menuExit,
               onTap: () {
                 if (Platform.isAndroid) {
                   SystemNavigator.pop();

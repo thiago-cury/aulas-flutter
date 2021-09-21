@@ -7,7 +7,7 @@ class Screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
 
-    String name = ModalRoute.of(context).settings.arguments as String ?? "";
+    String name = ModalRoute.of(context)!.settings.arguments as String;
 
     return MaterialApp(
       title: 'Flutter',

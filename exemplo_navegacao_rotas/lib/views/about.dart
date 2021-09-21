@@ -1,5 +1,4 @@
 import 'package:exemplo_navegacao/app/app.dart';
-import 'package:exemplo_navegacao/app/app_routes.dart';
 import 'package:exemplo_navegacao/views/views.dart';
 import 'package:flutter/material.dart';
 

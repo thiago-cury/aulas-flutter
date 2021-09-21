@@ -5,37 +5,37 @@ import 'package:flutter/material.dart';
 
 class AppRoutes {
 
-  static const String APP_ROUTE_HOME = "/home";
-  static const String APP_ROUTE_SCREEN_1 = "/screen1";
-  static const String APP_ROUTE_SCREEN_2 = "/screen2";
-  static const String APP_ROUTE_ABOUT = "/about";
+  static const String appRouteHome = "/home";
+  static const String appRouteScreen1 = "/screen1";
+  static const String appRouteScreen2 = "/screen2";
+  static const String appRouteAbout = "/about";
 
   Route getRoutes(RouteSettings routeSettings) {
 
     switch(routeSettings.name) {
 
-      case APP_ROUTE_HOME: {
+      case appRouteHome: {
         return MaterialPageRoute<void>(
           settings: routeSettings,
           builder: (BuildContext context) => Home('navegacao com rotas')
         );
       }
 
-      case APP_ROUTE_SCREEN_1: {
+      case appRouteScreen1: {
         return MaterialPageRoute<void>(
             settings: routeSettings,
             builder: (BuildContext context) => Screen1(),
         );
       }
 
-      case APP_ROUTE_SCREEN_2: {
+      case appRouteScreen2: {
         return MaterialPageRoute<void>(
           settings: routeSettings,
           builder: (BuildContext context) => Screen2(),
         );
       }
 
-      case APP_ROUTE_ABOUT: {
+      case appRouteAbout: {
         return MaterialPageRoute<void>(
           settings: routeSettings,
           builder: (BuildContext context) => About(),

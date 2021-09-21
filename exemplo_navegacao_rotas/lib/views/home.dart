@@ -29,7 +29,7 @@ class _HomeState extends State<Home> {
             icon: Icon(Icons.add),
             label: Text('Tela 1'),
             onPressed: () {
-              Timer(const Duration(milliseconds: 400), () => Navigator.pushNamed(context, AppRoutes.APP_ROUTE_SCREEN_1, arguments: 'Thiago Cury'));
+              Timer(const Duration(milliseconds: 400), () => Navigator.pushNamed(context, AppRoutes.appRouteScreen1, arguments: 'Thiago Cury'));
             },
           ),
           TextButton.icon(
@@ -37,14 +37,14 @@ class _HomeState extends State<Home> {
             label: Text('Tela 2'),
             onPressed: () {
               // Navigator.pushNamed(context, AppRoutes.APP_ROUTE_SCREEN_2);
-              Timer(const Duration(milliseconds: 900), () => Navigator.pushNamed(context, AppRoutes.APP_ROUTE_SCREEN_2));
+              Timer(const Duration(milliseconds: 900), () => Navigator.pushNamed(context, AppRoutes.appRouteScreen2));
             },
           ),
           TextButton.icon(
             icon: Icon(Icons.add),
             label: Text('Sobre'),
             onPressed: () {
-              Navigator.pushNamed(context, AppRoutes.APP_ROUTE_ABOUT);
+              Navigator.pushNamed(context, AppRoutes.appRouteAbout);
             },
           ),
         ],

@@ -21,7 +21,7 @@ class _HomeState extends State<Home> {
         children: [
           Text('Pesquisa', style: TextStyle(fontSize: 26.0)),
           Text('Contador'),
-          Text('Contador back: ${_count}', style: TextStyle(fontSize: 26.0)),
+          Text('Contador back: $_count', style: TextStyle(fontSize: 26.0)),
         ],
       ),
     );
@@ -32,7 +32,7 @@ class _HomeState extends State<Home> {
       child: Column(
         children: [
           Text('Conteúdo', style: TextStyle(fontSize: 26.0)),
-          Text('Contador front: ${_count}', style: TextStyle(fontSize: 26.0)),
+          Text('Contador front: $_count', style: TextStyle(fontSize: 26.0)),
           Text('bbb', style: TextStyle(fontSize: 26.0)),
           Text('ccc', style: TextStyle(fontSize: 26.0)),
         ],
