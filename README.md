@@ -79,6 +79,8 @@ Ordem de aprendizagem
 
 - Exemplo IMC BloC - conceitual
 
+- Exemplo IMC BloC - conceitual - Material Design e Cupertino
+
 - Exemplo consumo API Postmon CEP com BloC
 
 - Exemplo MobX
