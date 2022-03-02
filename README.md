@@ -81,7 +81,9 @@ Ordem de aprendizagem
 
 - Exemplo internacionalização
 
-- Exemplo SQFLite
+- Exemplo SQFLite - contact
+
+- Exemplo SQFLite - schedule
 
 - Exemplo icone
 
