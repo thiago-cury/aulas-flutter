@@ -90,3 +90,5 @@ Ordem de aprendizagem
 - Exemplo splash screen - flutter_native_splash
 
 - Exemplo Gráfico
+
+- Exemplo OCR
