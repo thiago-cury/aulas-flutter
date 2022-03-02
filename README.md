@@ -71,6 +71,8 @@ Ordem de aprendizagem
 
 20 - Exemplo consumo API Giphy
 
+21 - Exemplo consumo API Weather
+
 - Exemplo TTS
 
 - Exemplo IMC BloC - conceitual
