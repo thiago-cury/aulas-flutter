@@ -41,6 +41,7 @@ Ordem de aprendizagem
 6 - Exemplo imagens
 
 7 - Exemplo Row x Column
+7.1 - Exemplo Layout
 
 8 - Exemplo ListView x SingleChildScrollView + Column
 
