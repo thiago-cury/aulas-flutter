@@ -76,6 +76,8 @@ Ordem de aprendizagem
 
 21 - Exemplo consumo API Weather
 
+22 - Exemplo consumo API Game Of Thrones
+
 - Exemplo Timer
 
 - Exemplo TTS
