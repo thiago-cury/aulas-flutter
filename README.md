@@ -43,6 +43,8 @@ Ordem de aprendizagem
 7 - Exemplo Row x Column
 7.1 - Exemplo Layout
 
+7.5 - Exemplo Material App TabBar
+
 8 - Exemplo ListView x SingleChildScrollView + Column
 
 9 - Exemplo Formulário
