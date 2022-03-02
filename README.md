@@ -73,6 +73,8 @@ Ordem de aprendizagem
 
 21 - Exemplo consumo API Weather
 
+- Exemplo Timer
+
 - Exemplo TTS
 
 - Exemplo IMC BloC - conceitual
