@@ -84,3 +84,5 @@ Ordem de aprendizagem
 - Exemplo SQFLite
 
 - Exemplo icone
+
+- Exemplo splash screen - flutter_native_splash
