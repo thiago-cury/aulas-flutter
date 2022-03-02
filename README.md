@@ -76,6 +76,8 @@ Ordem de aprendizagem
 
 - Exemplo consumo API Postmon CEP com BloC
 
+- Exemplo MobX
+
 - Exemplo internacionalização
 
 - Exemplo SQFLite
