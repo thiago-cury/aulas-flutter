@@ -70,6 +70,7 @@ Ordem de aprendizagem
 18 - Exemplo consumo API Postmon CEP
 
 19 - Exemplo consumo API Pokemon
+19.1 - Exemplo consumo API Pokemon com paginação
 
 20 - Exemplo consumo API Giphy
 
