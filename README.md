@@ -83,6 +83,8 @@ Ordem de aprendizagem
 
 - Exemplo consumo API Postmon CEP com BloC
 
+- Exemplo Weather API com BloC
+
 - Exemplo MobX
 
 - Exemplo internacionalização
