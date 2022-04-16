@@ -108,3 +108,13 @@ Ordem de aprendizagem
 - Exemplo Gráfico
 
 - Exemplo OCR
+
+* Exemplo internacionalização i18n
+* Exemplo testes de integração
+* Exemplo testes de integração input
+* Exemplo widget book
+* Exemplo story book
+* Exemplo modular
+* Exemplo vlc player
+
+
