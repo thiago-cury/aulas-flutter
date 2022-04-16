@@ -1,0 +1,28 @@
+name: ex_modular
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  flutter_modular: ^4.5.1+1
+  flutter_triple: ^1.2.7+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+  triple_test: ^1.0.0
+  modular_test: ^1.0.1+2
+
+flutter:
+  uses-material-design: true
